@@ -30,6 +30,7 @@ import {
   CashIcon,
 } from "@/components/icons";
 import { Image } from "@nextui-org/image";
+import DropdownServices from "./dropdown";
 
 export const NavbarComponent = () => {
   return (
@@ -101,6 +102,7 @@ export const NavbarComponent = () => {
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
+            <DropdownServices />
           </NavbarContent>
         </NavbarContent>
 
